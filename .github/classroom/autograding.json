@@ -5,7 +5,7 @@
       "setup": "SHELL=/bin/bash && npm install",
       "run": "PORT=\"$(shuf -i 2000-65535 -n 1)\"; (timeout --signal=SIGINT 5 node server.js --port=$PORT; exit 0) & sleep 1s && curl -vI http://localhost:${PORT} && sleep 5s",
       "input": "",
-      "output": "[Pp]ort(\\s|\\S)([0-9]{4,5})\\nHTTP\\/(1.1|2) 200(\\sOK)?\\nContent-Type: text\\/html",
+      "output": "[Pp]ort(\\s|\\S)([0-9]{4,5})",
       "comparison": "regex",
       "timeout": 10,
       "points": 12500

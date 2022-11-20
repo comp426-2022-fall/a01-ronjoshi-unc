@@ -1,0 +1,25 @@
+{
+  "name": "rons-webserver",
+  "version": "1.0.0",
+  "description": "my first webserver",
+  "main": "server.js",
+  "scripts": {
+    "test": "asdf"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comp426-2022-fall/a01-ronjoshi-unc.git"
+  },
+  "keywords": [
+    "asdf"
+  ],
+  "author": "@ronjoshi-unc",
+  "license": "GPL-3.0-only",
+  "bugs": {
+    "url": "https://github.com/comp426-2022-fall/a01-ronjoshi-unc/issues"
+  },
+  "homepage": "https://github.com/comp426-2022-fall/a01-ronjoshi-unc#readme",
+  "dependencies": {
+    "minimist": "^1.2.7"
+  }
+}

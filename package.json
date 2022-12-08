@@ -1,5 +1,5 @@
 {
-  "name": "rons-webserver",
+  "name": "rons-webserver-a01",
   "version": "1.0.0",
   "description": "my first webserver",
   "main": "server.js",
